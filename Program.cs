@@ -7,7 +7,7 @@
 //End the loop early if the user guesses the correct number.
 
 
-Console.WriteLine("Guess a number");
+Console.WriteLine("Guess a number, you have 4 chances.");
 int secretNumber = 42;
 // Give the user four chances to guess the number.
 for (int i = 0; i < 4; i++)
